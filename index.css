@@ -21,9 +21,8 @@ margin: 0;
         font-size: 1rem;
 }
 
-#wug2 {
-        width: 95%;
-        margin: 0 auto;
+#wug2, #wugC2{
+        width: 100%;
 }
 
 
@@ -45,6 +44,7 @@ margin: 0;
         /* color: black; */
         /* border-radius: 1.5vmin; */
         background-color: #ffffff;
+        margin: 0 auto;
         box-shadow: 1px 0px 5px 0px gray;
 }
 .con6 .sBG {
