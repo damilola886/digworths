@@ -24,7 +24,7 @@ margin: 0;
 
 
 .con6 {
-        width: 40%;
+        width: 80%;
         height: auto;
         margin: 2vmin;
         animation-name: bab;
@@ -65,7 +65,7 @@ margin: 0;
 }
 .con6 ul li {
         margin-top: 2vmin;
-        font-size: 2.7vmin;
+        font-size: 1rem;
         text-align: center;
         font-family: Cabin;
 }
@@ -73,7 +73,7 @@ margin: 0;
         color: #fff;
         position: relative;
         margin: 2vmin;
-        font-size: 1.5vw;
+        font-size: 1.2rem;
 }
 .con6 p {
         text-align: center;
@@ -207,13 +207,13 @@ margin: 0;
 .privacy {
         background-color: white;
         margin: 0 auto;
-        width: 50%;
+        width: 100%;
         box-shadow: 1px 1px 5px 0px gray;
 }
 .terms {
         background-color: white;
         margin: 0 auto;
-        width: 50%;
+        width: 100%;
         box-shadow: 1px 1px 5px 0px gray;
 }
 input[type="text"], [type="email"], [type="tel"] {
@@ -628,10 +628,10 @@ textarea:focus {
          width: 100%;
          height: auto;
          color: #999999;
-         font-size: 2.8vmin;
+         font-size: 1rem;
          background-color: #17202a;
          border-top: 1px solid #f2f2f2;
-         padding: 9vmin;
+         padding: 9vmin 0 9vmin 0;
  }
 
  .navcus4 {
@@ -646,13 +646,13 @@ textarea:focus {
 
  .navcus3 {
          margin: 0 auto;
-         width: 70%;
+         width: 100%;
  }
 
  .navcus5 {
          margin: 0 auto;
          width: 50%;
-         padding: 3vmin;
+         padding: 1vmin;
  }
 
  .contentMain {
