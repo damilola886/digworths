@@ -9,16 +9,74 @@ margin: 0;
 
  body {
          margin: 0;
-         font-size: 18px;
          background-color: #f1f1f1;
  }
 
  body p {
          font-family: Cabin;
+         font-size: 1rem;
  }
 
  .con3 p {
         font-size: 1rem;
+}
+
+
+
+.con6 {
+        width: 40%;
+        height: auto;
+        margin: 2vmin;
+        animation-name: bab;
+        /* padding-bottom: 2vmin; */
+        /* transition-duration: 1000ms; */
+        /* padding-top: 2vw; */
+        /* padding-bottom: 2vw; */
+        /* color: black; */
+        /* border-radius: 1.5vmin; */
+        background-color: #ffffff;
+        box-shadow: 1px 0px 5px 0px gray;
+}
+.con6 .sBG {
+        background-color: #061E5B;
+        /* border-radius: 1.5vmin; */
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transform-origin: top left;
+        transform: skewY(-5deg);
+}
+.con6 header {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 3vmin;
+        height: 10vmin;
+}
+.con6 ul {
+        /* background-color: blue; */
+        list-style: none;
+        /* margin: 0 auto; */
+        width: 85%;
+}
+.con6 ul li {
+        margin-top: 2vmin;
+        font-size: 2.7vmin;
+        text-align: center;
+        font-family: Cabin;
+}
+.con6 h6 {
+        color: #fff;
+        position: relative;
+        margin: 2vmin;
+        font-size: 1.5vw;
+}
+.con6 p {
+        text-align: center;
 }
 
 
@@ -475,7 +533,7 @@ textarea:focus {
  .con h1 {
          font-family: Patua One;
          font-weight: bold;
-         font-size: 6vmin;
+         font-size: 1.7rem;
          color: black;
          margin-bottom: 1vh;
          text-align: right;
@@ -484,7 +542,8 @@ textarea:focus {
  .con p {
          color: black;
          text-align: right;
-         font-family: Cabin
+         font-family: Cabin;
+         font-size: 1rem;
  }
 
  #wug {
@@ -637,6 +696,18 @@ textarea:focus {
  /* Tabs and Desktop */
 
  @media screen and (min-width: 600px) {
+
+
+
+        .con h1 {
+                font-family: Patua One;
+                font-weight: bold;
+                font-size: 6vmin;
+                color: black;
+                margin-bottom: 1vh;
+                text-align: right;
+        }
+
          /* For the modal */
          .modalBG {
                  display: none;
