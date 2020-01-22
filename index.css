@@ -385,7 +385,7 @@ textarea:focus {
 
  .copy {
          text-align: center;
-         font-size: 1rem;
+         font-size: 0.8rem;
          background-color: #041643;
          color: white;
          margin: 0;
@@ -414,7 +414,7 @@ textarea:focus {
  .foot ul li a i {
          color: white;
          font-size:1rem;
-         margin: 0;
+         margin: 0 0 -10vh 0;
  }
 
  .bigPictureOverLay2 {
@@ -592,7 +592,8 @@ textarea:focus {
  }
 
  .footer {
-         padding: 0;
+         padding: 5vh 0 -20vh 0;
+         margin: 0 0 -10vmin 0
  }
 
  .foot {
