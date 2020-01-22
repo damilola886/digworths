@@ -21,7 +21,11 @@ margin: 0;
         font-size: 1rem;
 }
 
-
+.navcus5 {
+        margin: 0 auto;
+        width: 100%;
+        padding: 1vmin;
+}
 
 .con6 {
         width: 80%;
@@ -55,13 +59,13 @@ margin: 0;
         position: relative;
         overflow: hidden;
         margin-bottom: 3vmin;
-        height: 10vmin;
+        height: 10vh;
 }
 .con6 ul {
         /* background-color: blue; */
         list-style: none;
         /* margin: 0 auto; */
-        width: 85%;
+        width: 100%;
 }
 .con6 ul li {
         margin-top: 2vmin;
@@ -643,7 +647,7 @@ textarea:focus {
          font-size: 2.8vmin;
          background-color: #e8ebee;
          border-top: 1px solid #f2f2f2;
-         padding: 9vmin;
+         padding: 9vmin 0 9vmin 0;
  }
 
  .navcus3 {
@@ -653,8 +657,7 @@ textarea:focus {
 
  .navcus5 {
          margin: 0 auto;
-         width: 50%;
-         padding: 1vmin;
+         width: 100%;
  }
 
  .contentMain {
