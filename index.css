@@ -21,6 +21,12 @@ margin: 0;
         font-size: 1rem;
 }
 
+#wugC2 {
+        width: 95%;
+        margin: 0 auto;
+}
+
+
 .navcus5 {
         margin: 0 auto;
         width: 100%;
@@ -59,7 +65,7 @@ margin: 0;
         position: relative;
         overflow: hidden;
         margin-bottom: 3vmin;
-        height: 10vh;
+        height: 8vh;
 }
 .con6 ul {
         /* background-color: blue; */
