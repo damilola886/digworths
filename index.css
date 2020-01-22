@@ -133,7 +133,7 @@ margin: 0;
 }
 
 .foot h6 {
-        font-size: 1rem;
+        font-size: 0.9rem;
 }
 
 
@@ -413,7 +413,7 @@ textarea:focus {
 
  .foot ul li a i {
          color: white;
-         font-size:0.5;
+         font-size:0.5rem;
          margin: 0;
  }
 
@@ -606,7 +606,7 @@ textarea:focus {
 
  .foot ul li a {
          color: white;
-         font-size: 1rem;
+         font-size: 0.7rem;
          text-decoration: none;
          font-family: Cabin;
  }
