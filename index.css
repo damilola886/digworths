@@ -544,14 +544,15 @@ textarea:focus {
 
  .crt {
        background-color:  #061E5B;
+       padding: 6vh 0 6vh 0;
  }
 
  .con h1 {
          font-family: Patua One;
          font-weight: bold;
-         font-size: 1.5rem;
+         font-size: 1.1rem;
          color: rgb(255, 255, 255);
-         margin-bottom: 1vh;
+         margin-bottom: 2vh;
          text-align: center;
  }
 
@@ -698,7 +699,8 @@ textarea:focus {
 
 
  .leftLine {
-         width: 95%;
+         width: 90%;
+         margin: 0 auto;
  }
 
  .don2 {
