@@ -28,8 +28,8 @@ margin: 0;
 
 
 .navcus5 {
+        width: 95%;
         margin: 0 auto;
-        width: 100%;
         padding: 1vmin;
 }
 
@@ -96,7 +96,7 @@ margin: 0;
 
 
 .hire {
-        background-color: rgb(253, 173, 0);
+        background-color: #FF5C00;
         color: white;
         border: none;
         height: 5vh;
@@ -119,7 +119,7 @@ margin: 0;
 }
 
 .hire2 {
-        background-color: rgb(253, 173, 0);
+        background-color: #FF5C00;
         color: white;
         border: none;
         height: 5vh;
@@ -554,9 +554,9 @@ textarea:focus {
  .con h1 {
          font-family: Patua One;
          font-weight: bold;
-         font-size: 1.1rem;
+         font-size: 1.5rem;
          color: rgb(255, 255, 255);
-         margin-bottom: 2vh;
+         margin-bottom: 4vh;
          text-align: center;
  }
 
@@ -691,8 +691,8 @@ textarea:focus {
  }
 
 .con i {
-         color: rgb(253, 173, 0);
-         border: 0.7vmin solid rgb(253, 173, 0);
+         color: #FF5C00;
+         border: 0.7vmin solid #FF5C00;
          border-radius: 50%;
          text-align: center;
          width: 10vw;
