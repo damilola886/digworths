@@ -33,6 +33,10 @@ margin: 0;
         padding: 1vmin;
 }
 
+.navcus5 p {
+        color: #061E5B;
+}
+
 .con6 {
         width: 80%;
         height: auto;
@@ -92,7 +96,7 @@ margin: 0;
 
 
 .hire {
-        background-color: #FF5C00;
+        background-color: rgb(253, 173, 0);
         color: white;
         border: none;
         height: 5vh;
@@ -115,7 +119,7 @@ margin: 0;
 }
 
 .hire2 {
-        background-color: #FF5C00;
+        background-color: rgb(253, 173, 0);
         color: white;
         border: none;
         height: 5vh;
