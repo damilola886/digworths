@@ -19,6 +19,7 @@ margin: 0;
 
  .con3 p {
         font-size: 1rem;
+        margin-top: 2vh;
 }
 
 #wug2, #wugC2{
@@ -538,6 +539,7 @@ textarea:focus {
          margin: 1vh 0 1vh 0;
          font-size: 1.7rem;
          color: black;
+         display: none;
  }
 
  .con h1 {
@@ -551,7 +553,7 @@ textarea:focus {
 
  .con p {
          color: black;
-         text-align: right;
+         text-align: center;
          font-family: Cabin;
          font-size: 1rem;
  }
@@ -708,7 +710,14 @@ textarea:focus {
 
  @media screen and (min-width: 600px) {
 
-
+        .con3 h1 {
+                font-family: Patua One;
+                font-weight: bold;
+                margin: 1vh 0 1vh 0;
+                font-size: 1.7rem;
+                color: black;
+                display: block;
+        }
 
         .con h1 {
                 font-family: Patua One;
@@ -1079,6 +1088,7 @@ textarea:focus {
          }
          .con3 p {
                  font-size: 2.85vmin;
+                 margin: 0;
          }
          .intro p {
                  font-size: 18px;
@@ -1272,6 +1282,12 @@ textarea:focus {
                  border-left: 3px solid #061E5B;
                  list-style-type: none;
          }
+         .con p {
+                color: black;
+                text-align: right;
+                font-family: Cabin;
+                font-size: 1rem;
+        }
  }
 
  .ico {
@@ -1395,6 +1411,3 @@ textarea:focus {
          background-color: #041643;
  }
 
- .con p {
-         font-family: Cabin;
- }
