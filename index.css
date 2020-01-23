@@ -542,17 +542,21 @@ textarea:focus {
          display: none;
  }
 
+ .crt {
+       background-color:  #061E5B;
+ }
+
  .con h1 {
          font-family: Patua One;
          font-weight: bold;
          font-size: 1.7rem;
-         color: black;
+         color: rgb(255, 255, 255);
          margin-bottom: 1vh;
-         text-align: right;
+         text-align: center;
  }
 
  .con p {
-         color: black;
+         color: rgb(255, 255, 255);
          text-align: center;
          font-family: Cabin;
          font-size: 1rem;
@@ -674,11 +678,27 @@ textarea:focus {
  }
 
  .con {
-         width: 100%;
+         width: 95%;
          height: auto;
          margin: 1px;
          padding: 10px;
          color: black;
+ }
+
+.con i {
+         color: rgb(253, 173, 0);
+         border: 0.7vmin solid rgb(253, 173, 0);
+         border-radius: 50%;
+         text-align: center;
+         width: 10vw;
+         font-size: 4.5vmin;
+         height: auto;
+         padding: 1.5vmin;
+ }
+
+
+ .leftLine {
+         width: 95%;
  }
 
  .don2 {
