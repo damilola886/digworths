@@ -549,7 +549,7 @@ textarea:focus {
  .con h1 {
          font-family: Patua One;
          font-weight: bold;
-         font-size: 1.7rem;
+         font-size: 1.5rem;
          color: rgb(255, 255, 255);
          margin-bottom: 1vh;
          text-align: center;
@@ -691,7 +691,7 @@ textarea:focus {
          border-radius: 50%;
          text-align: center;
          width: 10vw;
-         font-size: 4.5vmin;
+         font-size: 5vmin;
          height: auto;
          padding: 1.5vmin;
  }
