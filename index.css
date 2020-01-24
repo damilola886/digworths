@@ -40,21 +40,21 @@ margin: 0;
 .con6 {
         width: 80%;
         height: auto;
-        margin: 2vmin;
         animation-name: bab;
         /* padding-bottom: 2vmin; */
         /* transition-duration: 1000ms; */
         /* padding-top: 2vw; */
         /* padding-bottom: 2vw; */
         /* color: black; */
-        /* border-radius: 1.5vmin; */
+        border-radius: 6vmin;
         background-color: #ffffff;
         margin: 0 auto;
+        margin-bottom: 5vh;
         box-shadow: 1px 0px 5px 0px gray;
 }
 .con6 .sBG {
         background-color: #061E5B;
-        /* border-radius: 1.5vmin; */
+        border-radius: 6vmin;
         width: 100%;
         height: 100%;
         margin: 0;
@@ -384,7 +384,7 @@ textarea:focus {
         text-decoration: none;
         box-shadow: 1px 1px 5px 0px gray;
 }
-.gst2 {
+/* .gst2 {
         color: #fff;
         background-color: #061E5B;
         padding: 0.5vmin;
@@ -395,8 +395,10 @@ textarea:focus {
         border: none;
         text-align: center;
         font-size: 2.5vmin;
+        border-radius: 6vh;
+        margin-bottom: 5vh;
         box-shadow: 1px 1px 5px 0px gray;
-}
+} */
 
  .copy {
          text-align: center;
