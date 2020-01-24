@@ -7,6 +7,40 @@ margin: 0;
 }
 
 
+.fa-ellipsis-v {
+        color: #FF5C00;
+}
+
+.navbar-toggler-icon:focus {
+        outline: none;
+}
+
+
+#navbarSupportedContent ul li .hhh {
+        font-size: 1rem;
+        text-align: right;
+}
+
+.navcus h2 {
+        color: white;
+        font-family: Righteous;
+        font-size: 1.7rem;
+        position: relative;
+        top: 1.4vh
+}
+
+
+.apply2 {
+        font-size: 1rem;
+        width: auto;
+        background-color: inherit;
+        color: white;
+        margin-left: 0;
+        border: 0px solid white;
+        text-align: right;
+        font-family: Cabin;
+}     
+
  body {
          margin: 0;
          background-color: #f1f1f1;
