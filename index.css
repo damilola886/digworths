@@ -80,7 +80,7 @@ margin: 0;
         /* padding-top: 2vw; */
         /* padding-bottom: 2vw; */
         /* color: black; */
-        border-radius: 6vmin;
+        border-radius: 5vmin;
         background-color: #ffffff;
         margin: 0 auto;
         margin-bottom: 5vh;
@@ -88,7 +88,7 @@ margin: 0;
 }
 .con6 .sBG {
         background-color: #061E5B;
-        border-radius: 6vmin;
+        border-radius: 5vmin;
         width: 100%;
         height: 100%;
         margin: 0;
@@ -110,7 +110,10 @@ margin: 0;
         /* background-color: blue; */
         list-style: none;
         /* margin: 0 auto; */
-        width: 100%;
+        position: relative;
+        right: 6vmin;
+        width: 95%;
+        margin: 5vmin auto;
 }
 .con6 ul li {
         margin-top: 2vmin;
