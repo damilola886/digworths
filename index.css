@@ -3,6 +3,7 @@
 
 * {
 box-sizing: border-box;
+/* padding: 0; */
 margin: 0;
 }
 
@@ -61,10 +62,9 @@ margin: 0;
 }
 
 
-.navcus5 {
-        width: 95%;
+.ff {
+        width: 85%;
         margin: 0 auto;
-        padding: 1vmin;
 }
 
 .navcus5 p {
@@ -699,7 +699,6 @@ textarea:focus {
  .navcus4 {
          width: 100%;
          height: auto;
-         color: #000000;
          font-size: 2.8vmin;
          background-color: #e8ebee;
          border-top: 1px solid #f2f2f2;
