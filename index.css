@@ -24,8 +24,10 @@ margin: 0;
 
 }
 @keyframes slide {
-        from {left: -30%;}
-        to   {left: 0%;}
+        from {left: -30%;
+                opacity: 0;}
+        to   {left: 0%;
+                opacity: 1;}
 }
 
 .slide2 {
@@ -39,8 +41,10 @@ margin: 0;
 
 }
 @keyframes slide2 {
-        from {left: 30%;}
-        to   {left: 0%;}
+        from {left: 30%;
+              opacity: 0;}
+        to   {left: 0%;
+              opacity: 1;}
 }
 
 .slide3 {
@@ -83,7 +87,7 @@ margin: 0;
         font-family: Righteous;
         font-size: 1.7rem;
         position: relative;
-        bottom: 0.1vh;
+        bottom: 1.5vh;
 }
 
 
@@ -132,7 +136,7 @@ margin: 0;
         height: auto;
         position: relative;
         animation-name: bab;
-        /* padding-bottom: 2vmin; */
+        padding-bottom: 2vmin;
         /* transition-duration: 1000ms; */
         /* padding-top: 2vw; */
         /* padding-bottom: 2vw; */
