@@ -111,10 +111,23 @@ const kn2 =  (ele3) => {
     
 }
 
+
+const kn3 =  (ele4) => {
+    ele4 = document.querySelectorAll("#hhh");
+    ele4.forEach((item) => {
+        if(isInViewPort(item)) {
+           item.classList.add('slide3');
+            } else {
+        }
+    })
+    
+}
+
 window.onscroll = () => { 
     top2();
     kn();
     kn2();
+    kn3();
     }
 
 //     window.onscroll = (ele) => {
