@@ -78,26 +78,48 @@ let mod = document.querySelector(".mod");
             );
         }
 
-        window.onscroll = (ele) => {
-            ele = document.querySelector(".gh");
-            if(isInViewPort(ele)) {
-            console.log('visible')
-            document.querySelector("#tff").classList.add('slide');
-            } else {
-            console.log("not visible");
-        }
-    }
-
-    window.onscroll = (ele) => {
-        ele = document.querySelector(".no");
+        
+        
+       const top2 = (ele) => {
+        ele = document.querySelector(".gh");
         if(isInViewPort(ele)) {
-        console.log('visible')
-        document.querySelector(".win").classList.add('slide');
-        document.querySelector(".iim").classList.add('slide2');
+        console.log('down')
+        document.querySelector("#tff").classList.add('slide');
         } else {
         console.log("not visible");
     }
 }
+
+
+
+
+const kn =  (ele2) => {
+    ele2 = document.querySelector(".no");
+    if(isInViewPort(ele2)) {
+    console.log('visible')
+    document.querySelector(".win").classList.add('slide');
+    document.querySelector(".iim").classList.add('slide2');
+    } else {
+    console.log("not visible");
+}
+
+}
+
+window.onscroll = () => { 
+    top2();
+    kn();
+    }
+
+//     window.onscroll = (ele) => {
+//         ele = document.querySelector(".no");
+//         if(isInViewPort(ele)) {
+//         console.log('visible')
+//         document.querySelector(".win").classList.add('slide');
+//         document.querySelector(".iim").classList.add('slide2');
+//         } else {
+//         console.log("not visible");
+//     }
+// }
 
 // window.onscroll = (ele) => {
 //     ele = document.querySelector(".no");
