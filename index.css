@@ -11,10 +11,10 @@ margin: 0;
 .slide {
         position: relative;
         -webkit-animation-name: slide;
-        -webkit-animation-duration: 2s;
+        -webkit-animation-duration: 3s;
         -webkit-animation-fill-mode: fowards;
         animation-name: slide;
-        animation-duration: 2s;
+        animation-duration: 3s;
         animation-fill-mode: fowards;
 
 }
