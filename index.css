@@ -13,6 +13,7 @@ margin: 0;
 }
 
 
+
 .slide {
         position: relative;
         -webkit-animation-name: slide;
@@ -842,7 +843,7 @@ textarea:focus {
 
  /* Tabs and Desktop */
 
- @media screen and (min-width: 600px) {
+ @media screen and (min-width: 992px) {
 
         .con3 h1 {
                 font-family: Patua One;
@@ -857,9 +858,13 @@ textarea:focus {
                 font-family: Patua One;
                 font-weight: bold;
                 font-size: 6vmin;
-                color: black;
+                color: white;
                 margin-bottom: 1vh;
                 text-align: right;
+        }
+
+        .con p {
+                color: white
         }
 
          /* For the modal */
@@ -1129,7 +1134,6 @@ textarea:focus {
                  height: auto;
                  margin: 2vmin;
                  animation-name: bab;
-                 opacity: -2;
                  /* transition-duration: 1000ms; */
                  padding: 10px;
                  /* color: black; */
@@ -1419,7 +1423,7 @@ textarea:focus {
                  list-style-type: none;
          }
          .con p {
-                color: black;
+                color: white;
                 text-align: right;
                 font-family: Cabin;
                 font-size: 1rem;
