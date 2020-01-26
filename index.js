@@ -1,14 +1,13 @@
-let mod = document.querySelector(".mod");
+        let mod = document.querySelector(".mod");
         let mod2 = document.querySelector(".hire2");
-        let mod0 = document.querySelector(".hire0");
+        let hireModal = document.querySelectorAll(".upp");
         let modal = document.querySelector(".modalBG");
-        let modalAll = document.querySelector(".targetCloseModal");
+        let modalClose = document.querySelector(".closeModal");
         let privacy = document.querySelector(".pri");
         let terms = document.querySelector(".tou");
         let modalPri = document.querySelector(".modalPrivacy");
         let modalTou = document.querySelector(".modalTerms");
         let footer = document.querySelector(".getget");
-
         let firstName = document.querySelector("#fname");
         let secondName = document.querySelector("#sname");
         let phone = document.querySelector("#phone");
@@ -16,56 +15,39 @@ let mod = document.querySelector(".mod");
         let companyName = document.querySelector("#companyname");
         let describeProject = document.querySelector("#describeproject");
 
-        // const clearFields = () => {
-        //     firstName.value = "";
-        //     secondName.value = "";
-        //     phone.value = "";
-        //     email.value = "";
-        //     companyName.value = "";
-        //     describeProject.value = "";
-        // }
+        hireModal.forEach((item) => {
+            item.onclick = () => {
+                modal.style.display = 'block';
+            }
+        })
 
-        // privacy.onclick = function displayModal() {
-        //     modalPri.style.display = "block";
-        // }
+        const clearFields = () => {
+            firstName.value = "";
+            secondName.value = "";
+            phone.value = "";
+            email.value = "";
+            companyName.value = "";
+            describeProject.value = "";
+        }
 
+        privacy.onclick = function displayModal() {
+            modalPri.style.display = "block";
+        }
 
-
-        // terms.onclick = function displayModal() {
-        //     modalTou.style.display = "block";
-        // }
-
-        // // footer.onclick = function (e) {
-        // //     if(e.target.className = "form") {
-        // //         modal.style.display = "block";
-        // //     }
-        // // }
+        terms.onclick = function displayModal() {
+            modalTou.style.display = "block";
+        }
 
 
-        // mod.onclick = function (e) {
-        //     e.preventDefault;
-        //     modal.style.display = "block";
-        // }
+ function close (e) {
+            clearFields();
+            modal.style.display = "none";
+            modalTou.style.display = "none";
+            modalPri.style.display = "none";
+            e.preventDefault();
+        } 
 
-        // mod2.onclick = function (e) {
-        //     e.preventDefault;
-        //     modal.style.display = "block";
-        // }
-
-        // mod0.onclick = function (e) {
-        //     e.preventDefault;
-        //     modal.style.display = "block";
-        // }
-
-// fix modal close button
-//  function close (e) {
-//             clearFields();
-//             e.preventDefault;
-//             modal.style.display = "none";
-//             modalTou.style.display = "none";
-//             modalPri.style.display = "none";
-//             alert("hello");
-//         } 
+        modalClose.addEventListener('click', close);
     
 
         const isInViewPort = (element) => {
@@ -79,7 +61,7 @@ let mod = document.querySelector(".mod");
         }
 
         
-        
+   
        const top2 = (ele) => {
         ele = document.querySelector(".gh");
         if(isInViewPort(ele)) {
@@ -87,9 +69,6 @@ let mod = document.querySelector(".mod");
         } else {
     }
 }
-
-
-
 
 const kn =  (ele2) => {
     ele2 = document.querySelector(".no");
@@ -107,10 +86,8 @@ const kn2 =  (ele3) => {
            item.classList.add('slide3');
             } else {
         }
-    })
-    
+    }) 
 }
-
 
 const kn3 =  (ele4) => {
     ele4 = document.querySelectorAll("#hhh");
@@ -128,25 +105,4 @@ window.onscroll = () => {
     kn();
     kn2();
     kn3();
-    }
-
-//     window.onscroll = (ele) => {
-//         ele = document.querySelector(".no");
-//         if(isInViewPort(ele)) {
-//         console.log('visible')
-//         document.querySelector(".win").classList.add('slide');
-//         document.querySelector(".iim").classList.add('slide2');
-//         } else {
-//         console.log("not visible");
-//     }
-// }
-
-// window.onscroll = (ele) => {
-//     ele = document.querySelector(".no");
-//     if(isInViewPort(ele)) {
-//     console.log('visible')
-//     document.querySelector(".win").classList.add('slide2');
-//     } else {
-//     console.log("not visible");
-// }
-// }
+ }

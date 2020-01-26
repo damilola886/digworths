@@ -303,15 +303,13 @@ margin: 0;
 /* CSS for the form*/
 .formshow {
         background-color: white;
-        margin: 0 auto;
-        width: 60%;
-        box-shadow: 1px 1px 5px 0px gray;
+        padding: 0 5vmin 5vmin 5vmin ;
+        width: 100%;
 }
 .formshow2 {
         background-color: white;
         margin: 0 auto;
-        width: 60%;
-        box-shadow: 1px 1px 5px 0px gray;
+        width: 100%;
 }
 .formshow2 p {
         margin: 5vmin;
@@ -1256,6 +1254,7 @@ textarea:focus {
          .foot2 {
                  width: 40%;
                  margin-left: 15%;
+                 display: block;
          }
          .intro {
                  color: white;
