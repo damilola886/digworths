@@ -8,8 +8,13 @@ margin: 0;
 }
 
 
-.fa-ellipsis-v {
+.navbar-toggler-icon {
         color: #FF5C00;
+        font-weight: bold;
+}
+
+.navbar-toggler:focus {
+ outline: none;
 }
 
 .navbar-toggler-icon:focus {
