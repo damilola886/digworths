@@ -92,7 +92,8 @@ let mod = document.querySelector(".mod");
         ele = document.querySelector(".no");
         if(isInViewPort(ele)) {
         console.log('visible')
-        document.querySelector(".win").classList.add('slide2');
+        document.querySelector(".win").classList.add('slide');
+        document.querySelector(".iim").classList.add('slide2');
         } else {
         console.log("not visible");
     }
