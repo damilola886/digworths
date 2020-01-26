@@ -8,6 +8,21 @@ margin: 0;
 }
 
 
+.slide {
+        position: relative;
+        -webkit-animation-name: slide;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-fill-mode: fowards;
+        animation-name: slide;
+        animation-duration: 2s;
+        animation-fill-mode: fowards;
+
+}
+@keyframes slide {
+        from {left: -50%;}
+        to   {left: 0%;}
+}
+
 .navbar-toggler-icon {
         color: #FF5C00;
         font-weight: bold;
@@ -80,6 +95,7 @@ margin: 0;
 .con6 {
         width: 80%;
         height: auto;
+        position: relative;
         animation-name: bab;
         /* padding-bottom: 2vmin; */
         /* transition-duration: 1000ms; */
@@ -725,6 +741,17 @@ textarea:focus {
          display: flex;
          flex-direction: column;
  }
+
+ .tff {
+         position: relative;
+         -webkit-animation-name: slide;
+         -webkit-animation-duration: 3s;
+         -webkit-animation-fill-mode: fowards;
+         animation-name: slide;
+         animation-duration: 3s;
+         animation-fill-mode: fowards;
+
+        }
 
  .con {
          width: 95%;

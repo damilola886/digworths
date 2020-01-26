@@ -16,54 +16,74 @@ let mod = document.querySelector(".mod");
         let companyName = document.querySelector("#companyname");
         let describeProject = document.querySelector("#describeproject");
 
-        const clearFields = () => {
-            firstName.value = "";
-            secondName.value = "";
-            phone.value = "";
-            email.value = "";
-            companyName.value = "";
-            describeProject.value = "";
-        }
+        // const clearFields = () => {
+        //     firstName.value = "";
+        //     secondName.value = "";
+        //     phone.value = "";
+        //     email.value = "";
+        //     companyName.value = "";
+        //     describeProject.value = "";
+        // }
 
-        privacy.onclick = function displayModal() {
-            modalPri.style.display = "block";
-        }
-
-
-
-        terms.onclick = function displayModal() {
-            modalTou.style.display = "block";
-        }
-
-        footer.onclick = function (e) {
-            if(e.target.className = "form") {
-                modal.style.display = "block";
-            }
-        }
+        // privacy.onclick = function displayModal() {
+        //     modalPri.style.display = "block";
+        // }
 
 
-        mod.onclick = function (e) {
-            e.preventDefault;
-            modal.style.display = "block";
-        }
 
-        mod2.onclick = function (e) {
-            e.preventDefault;
-            modal.style.display = "block";
-        }
+        // terms.onclick = function displayModal() {
+        //     modalTou.style.display = "block";
+        // }
 
-        mod0.onclick = function (e) {
-            e.preventDefault;
-            modal.style.display = "block";
-        }
+        // // footer.onclick = function (e) {
+        // //     if(e.target.className = "form") {
+        // //         modal.style.display = "block";
+        // //     }
+        // // }
+
+
+        // mod.onclick = function (e) {
+        //     e.preventDefault;
+        //     modal.style.display = "block";
+        // }
+
+        // mod2.onclick = function (e) {
+        //     e.preventDefault;
+        //     modal.style.display = "block";
+        // }
+
+        // mod0.onclick = function (e) {
+        //     e.preventDefault;
+        //     modal.style.display = "block";
+        // }
 
 // fix modal close button
- function close (e) {
-            clearFields();
-            e.preventDefault;
-            modal.style.display = "none";
-            modalTou.style.display = "none";
-            modalPri.style.display = "none";
-            alert("hello");
-        } 
+//  function close (e) {
+//             clearFields();
+//             e.preventDefault;
+//             modal.style.display = "none";
+//             modalTou.style.display = "none";
+//             modalPri.style.display = "none";
+//             alert("hello");
+//         } 
     
+
+        const isInViewPort = (element) => {
+            let bounding = element.getBoundingClientRect();
+            return (
+                bounding.top >= 0 &&
+                bounding.left >= 0 &&
+                bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        window.onscroll = (ele) => {
+            ele = document.querySelector("#tff");
+            if(isInViewPort(ele)) {
+            console.log('visible')
+            ele.classList.add('slide');
+            } else {
+            console.log("not visible");
+        }
+    }
