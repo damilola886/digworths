@@ -79,10 +79,10 @@ let mod = document.querySelector(".mod");
         }
 
         window.onscroll = (ele) => {
-            ele = document.querySelector("#tff");
+            ele = document.querySelector(".gh");
             if(isInViewPort(ele)) {
             console.log('visible')
-            ele.classList.add('slide');
+            document.querySelector("#tff").classList.add('slide');
             } else {
             console.log("not visible");
         }
