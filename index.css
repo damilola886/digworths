@@ -11,6 +11,7 @@ margin: 0;
 .navbar-toggler-icon {
         color: #FF5C00;
         font-weight: bold;
+        font-size: 1.7rem;
 }
 
 .navbar-toggler:focus {
@@ -32,7 +33,7 @@ margin: 0;
         font-family: Righteous;
         font-size: 1.7rem;
         position: relative;
-        top: 1.4vh
+        /* top: 1.4vh */
 }
 
 
