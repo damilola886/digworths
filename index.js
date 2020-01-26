@@ -83,10 +83,8 @@ let mod = document.querySelector(".mod");
        const top2 = (ele) => {
         ele = document.querySelector(".gh");
         if(isInViewPort(ele)) {
-        console.log('down')
         document.querySelector("#tff").classList.add('slide');
         } else {
-        console.log("not visible");
     }
 }
 
@@ -96,11 +94,9 @@ let mod = document.querySelector(".mod");
 const kn =  (ele2) => {
     ele2 = document.querySelector(".no");
     if(isInViewPort(ele2)) {
-    console.log('visible')
     document.querySelector(".win").classList.add('slide');
     document.querySelector(".iim").classList.add('slide2');
     } else {
-    console.log("not visible");
 }
 }
 
@@ -108,10 +104,8 @@ const kn2 =  (ele3) => {
     ele3 = document.querySelectorAll(".con2");
     ele3.forEach((item) => {
         if(isInViewPort(item)) {
-            console.log('hahaha')
            item.classList.add('slide3');
             } else {
-            console.log("not visible");
         }
     })
     
