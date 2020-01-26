@@ -33,7 +33,7 @@ margin: 0;
         font-family: Righteous;
         font-size: 1.7rem;
         position: relative;
-        /* top: 1.4vh */
+        bottom: 0.1vh;
 }
 
 
