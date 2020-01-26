@@ -89,10 +89,9 @@ let mod = document.querySelector(".mod");
     }
 
     window.onscroll = (ele) => {
-        ele = document.querySelector(".no2");
+        ele = document.querySelector(".no");
         if(isInViewPort(ele)) {
         console.log('visible')
-        document.querySelector(".iim").classList.add('slide');
         document.querySelector(".win").classList.add('slide2');
         } else {
         console.log("not visible");
