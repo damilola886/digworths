@@ -23,6 +23,21 @@ margin: 0;
         to   {left: 0%;}
 }
 
+.slide2 {
+        position: relative;
+        -webkit-animation-name: slide2;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-fill-mode: fowards;
+        animation-name: slide2;
+        animation-duration: 3s;
+        animation-fill-mode: fowards;
+
+}
+@keyframes slide2 {
+        from {left: 50%;}
+        to   {left: 0%;}
+}
+
 .navbar-toggler-icon {
         color: #FF5C00;
         font-weight: bold;
