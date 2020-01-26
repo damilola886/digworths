@@ -102,12 +102,25 @@ const kn =  (ele2) => {
     } else {
     console.log("not visible");
 }
+}
 
+const kn2 =  (ele3) => {
+    ele3 = document.querySelectorAll(".con2");
+    ele3.forEach((item) => {
+        if(isInViewPort(item)) {
+            console.log('hahaha')
+           item.classList.add('slide3');
+            } else {
+            console.log("not visible");
+        }
+    })
+    
 }
 
 window.onscroll = () => { 
     top2();
     kn();
+    kn2();
     }
 
 //     window.onscroll = (ele) => {
