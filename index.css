@@ -135,6 +135,7 @@ margin: 0;
  .con3 p {
         font-size: 1rem;
         margin-top: 2vh;
+        color: white;
         line-height: 1.6;
 }
 
@@ -662,10 +663,10 @@ input[type="checkbox"] {
          font-weight: bold;
          font-size: 1.1rem;
          text-align: center;
-         background-color: #fff;
+         background-color:  #061E5B;
          border-radius: 25px;
          padding: 1vh;
-         color: #222222;
+         color: white;
          position: relative;
          bottom: 11vmin;
          width: 50%;
@@ -703,6 +704,12 @@ input[type="checkbox"] {
        background-color:  #061E5B;
        padding: 6vh 0 6vh 0;
  }
+
+ .crt2 {
+        background-color:  #061E5B;
+        padding: 1vh 0 2vh 0;
+  }
+ 
 
  .con h1 {
          font-family: Patua One;
@@ -1277,7 +1284,7 @@ input[type="checkbox"] {
                  height: auto;
                  margin: 2vmin;
                  padding: 10px;
-                 color: black;
+                 color: white;
                  /* border-radius: 5px; */
                  /* background-color: rgba(0, 38, 134, 0.3); */
                  /* box-shadow: 1px 0px 1px 0px gray; */
