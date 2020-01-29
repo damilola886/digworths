@@ -116,6 +116,7 @@ margin: 0;
  .con3 p {
         font-size: 1rem;
         margin-top: 2vh;
+        line-height: 1.6;
 }
 
 #wug2, #wugC2{
@@ -130,6 +131,7 @@ margin: 0;
 
 .navcus5 p {
         color: #061E5B;
+        line-height: 1.6;
 }
 
 .con6 {
@@ -601,8 +603,9 @@ textarea:focus {
 
  .con2 h6 {
          font-family: Alatsi;
-         font-size: 1.3rem;
+         font-size: 1.1rem;
  }
+
 
  #about2 {
          box-shadow: 0px 0px 3px 5px #f2f2f2;
@@ -664,7 +667,8 @@ textarea:focus {
          text-align: center;
          font-family: Cabin;
          font-size: 1rem;
- }
+        line-height: 1.6;
+}
 
  #wug {
          width: 100%;
@@ -675,12 +679,14 @@ textarea:focus {
          color: white;
          font-family: Cabin;
          text-align: left;
+         line-height: 1.6;
  }
 
  #about p {
          font-size: 3vmin;
          color: gray;
-         font-family: Cabin
+         font-family: Cabin;
+         line-height: 1.6;
  }
 
  .bigPicture {
@@ -750,6 +756,7 @@ textarea:focus {
          width: 100%;
          height: auto;
          color: #999999;
+         line-height: 1.6;
          font-size: 1rem;
          background-color: #17202a;
          border-top: 1px solid #f2f2f2;
@@ -864,7 +871,8 @@ textarea:focus {
         }
 
         .con p {
-                color: white
+                color: white;
+                line-height: 1.6;
         }
 
          /* For the modal */
@@ -1142,7 +1150,7 @@ textarea:focus {
                  /* box-shadow: 1px 2px 5px 0px gray; */
          }
          .con6 {
-                 width: 40%;
+                 width: 100%;
                  height: auto;
                  margin: 2vmin;
                  animation-name: bab;
@@ -1228,12 +1236,14 @@ textarea:focus {
          .con3 p {
                  font-size: 2.85vmin;
                  margin: 0;
+                 line-height: 1.6;
          }
          .intro p {
                  font-size: 18px;
                  color: white;
                  font-family: Open Sans;
                  text-align: left;
+                 line-height: 1.6;
                  width: 60%;
          }
          .topBB {
@@ -1250,7 +1260,8 @@ textarea:focus {
          #wug p {
                  font-size: 18px;
                  color: black;
-                 font-family: Cabin
+                 font-family: Cabin;
+                 line-height: 1.6;
          }
          .foot {
                  width: 40%;
@@ -1279,6 +1290,7 @@ textarea:focus {
                  font-size: 18px;
                  color: white;
                  font-family: Cabin;
+                 line-height: 1.6;
          }
          .don p {
                  font-size: 18px;
@@ -1427,6 +1439,7 @@ textarea:focus {
                 text-align: right;
                 font-family: Cabin;
                 font-size: 1rem;
+                line-height: 1.6;
         }
  }
 
@@ -1523,7 +1536,7 @@ textarea:focus {
          height: auto;
          color: white;
          font-size: 1rem;
-         padding-top: 2vh;
+         padding: 9vh;
          background-color: #061E5B;
  }
 
