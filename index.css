@@ -660,7 +660,7 @@ input[type="checkbox"] {
          font-family: Patua One;
          font-weight: bold;
          font-size: 1.7rem;
-         background: -webkit-linear-gradient(#061E5B 50%, #FF5C00 50%);
+         background: -webkit-linear-gradient(#061E5B 50%, #000 50%);
          -webkit-background-clip: text;
          background-clip: text;
          -webkit-text-fill-color: transparent;
@@ -670,7 +670,7 @@ input[type="checkbox"] {
  .ree {
          
         position: relative;
-        bottom: 12.5vmin;
+        bottom: 13vmin;
  }
 
  h1 {
