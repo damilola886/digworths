@@ -323,9 +323,12 @@ margin: 0;
 /* CSS for the form*/
 .formshow {
         background-color: white;
-        padding: 0 5vmin 5vmin 5vmin ;
+        padding: 0 0vmin 5vmin 0vmin ;
         width: 100%;
+        overflow: hidden;
 }
+
+
 .formshow2 {
         background-color: white;
         margin: 0 auto;
@@ -354,7 +357,7 @@ input[type="text"], [type="email"], [type="tel"] {
         height: 6vmin;
         margin: 5vmin;
         font-family: Acme;
-        font-size: 3vmin;
+        font-size: 1rem;
 }
 input:focus {
         outline: none;
@@ -364,13 +367,13 @@ input::placeholder {
 }
 #companyname::placeholder {
         font-family: Acme;
-        font-size: 3vmin;
+        font-size: 1rem;
 }
 #companyname {
         border: none;
         border-bottom: 2px solid #041643;
         width: 91%;
-        font-size: 3vmin;
+        font-size: 1rem;
         height: 6vmin;
         margin: 5vmin;
 }
@@ -380,7 +383,7 @@ input[type="submit"] {
         border: none;
         height: 7vmin;
         width: 40vmin;
-        font-size: 18px;
+        font-size: 1rem;
         margin: 4vmin 0 5vmin 5vmin;
         font-family: Cabin;
 }
@@ -395,13 +398,11 @@ input[type="submit"]:hover {
         width: 40vmin;
         position: relative;
         bottom: 0.2vmin;
-        font-size: 18px;
-        /* margin: 5px 0 0 5px; */
         font-family: Cabin;
 }
 label {
         font-family: Acme;
-        font-size: 2.5vmin;
+        font-size: 1rem;
         margin-left: 5vmin;
 }
 textarea {
@@ -412,7 +413,7 @@ textarea {
         width: 91%;
         height: 25vmin;
         margin-left: 5vmin;
-        font-size: 2.5vmin;
+        font-size: 1rem;
 }
 textarea:focus {
         outline: none;
@@ -424,7 +425,7 @@ textarea:focus {
         padding-left: 35px;
         margin-bottom: 12px;
         cursor: pointer;
-        font-size: 3vmin;
+        font-size: 1rem;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -478,7 +479,8 @@ textarea:focus {
         transform: rotate(45deg);
 }
 .formshow form label {
-        margin-left: 5vmin;
+        margin-left: 10%;
+        font-size: 1rem;
 }
 /* CSS ends for the form*/
 .gst {
@@ -598,16 +600,18 @@ textarea:focus {
  }
 
  .bigHead2 {
-         font-size: 4vmin;
+         font-size: 1.3rem;
          background-color: #041643;
          font-family: Cabin;
+         position: fixed;
+         margin-top: 5vmin;
+         top: 0;
          color: white;
          width: 100%;
          font-weight: bold;
          text-align: left;
          margin-bottom: 5vmin;
-         padding: 2vmin;
-         padding-left: 5vmin;
+         padding: 3vmin;
  }
 
  #wugC {
