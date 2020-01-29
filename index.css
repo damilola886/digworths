@@ -660,14 +660,17 @@ input[type="checkbox"] {
          font-family: Patua One;
          font-weight: bold;
          font-size: 1.7rem;
-         color: linear-gradient(
-         #061E5B @ 52.57%
-         rgba(255, 138, 0, 0.5) @ 52.58%
-         #141E7B @ 52.59%
-         #141E7B @ 52.6%
-         #FF5C00 @ 52.61%
-         #FF5C00 @ 52.62%);
-         margin-bottom: 5vh;
+         background: -webkit-linear-gradient(#061E5B 50%, #FF5C00 50%);
+         -webkit-background-clip: text;
+         background-clip: text;
+         -webkit-text-fill-color: transparent;
+
+ }
+
+ .ree {
+         
+        position: relative;
+        bottom: 12.5vmin;
  }
 
  h1 {
