@@ -665,6 +665,8 @@ input[type="checkbox"] {
          background-color: #f1f1f1;
          border-radius: 25px;
          padding: 1vh;
+         color: #222222;
+         margin-bottom: 10%;
          width: 50%;
 
  }
