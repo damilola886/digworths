@@ -13,6 +13,23 @@ margin: 0;
 }
 
 
+.navcusFoot {
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 1rem;
+        margin: 0;
+        background-color: #061E5B;
+}
+
+.footer {
+        padding: 2vh 0 0 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding-bottom: 1vmin;
+}
+
+
 
 .slide {
         position: relative;
@@ -717,10 +734,7 @@ textarea:focus {
          font-size: 5vmin;
  }
 
- .footer {
-         padding: 5vh 0 -20vh 0;
-         margin: 0 0 -10vmin 0
- }
+ 
 
  .foot {
          width: 100%;
@@ -1150,7 +1164,7 @@ textarea:focus {
                  /* box-shadow: 1px 2px 5px 0px gray; */
          }
          .con6 {
-                 width: 100%;
+                 width: 80%;
                  height: auto;
                  margin: 2vmin;
                  animation-name: bab;
@@ -1162,6 +1176,7 @@ textarea:focus {
                  /* border-radius: 1.5vmin; */
                  background-color: #ffffff;
                  box-shadow: 1px 0px 5px 0px gray;
+                 
          }
          .con6 .sBG {
                  background-color: #061E5B;
@@ -1531,14 +1546,6 @@ textarea:focus {
          padding: 2vmin;
  }
 
- .navcusFoot {
-         width: 100%;
-         height: auto;
-         color: white;
-         font-size: 1rem;
-         padding: 9vh;
-         background-color: #061E5B;
- }
 
  .navcus h2 {
          color: white;
