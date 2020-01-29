@@ -668,7 +668,7 @@ input[type="checkbox"] {
          padding: 1vh;
          color: white;
          position: relative;
-         bottom: 11vmin;
+         bottom: 12.5vmin;
          width: 50%;
 
  }
@@ -706,8 +706,8 @@ input[type="checkbox"] {
  }
 
  .crt2 {
-        background-color:  #061E5B;
-        padding: 1vh 0 2vh 0;
+        background-image: linear-gradient(to right, rgba(6, 30, 91, 1), transparent);
+        padding: 2vh 0 2vh 0;
   }
  
 
