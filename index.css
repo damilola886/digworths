@@ -323,7 +323,6 @@ margin: 0;
 /* CSS for the form*/
 .formshow {
         background-color: white;
-        padding: 0 0vmin 5vmin 0vmin ;
         width: 100%;
         overflow: hidden;
 }
@@ -355,10 +354,12 @@ input[type="text"], [type="email"], [type="tel"] {
         border-bottom: 2px solid #041643;
         width: 41%;
         height: 6vmin;
-        margin: 5vmin;
+        margin: 10vmin 2vmin 0 0;
         font-family: Acme;
         font-size: 1rem;
 }
+
+
 input:focus {
         outline: none;
 }
@@ -372,19 +373,19 @@ input::placeholder {
 #companyname {
         border: none;
         border-bottom: 2px solid #041643;
-        width: 91%;
+        width: 86%;
         font-size: 1rem;
         height: 6vmin;
-        margin: 5vmin;
+        margin: 10vmin 0 5vmin 0 ;
 }
 input[type="submit"] {
         background-color: #FF5C00;
         color: white;
         border: none;
-        height: 7vmin;
-        width: 40vmin;
+        height: 7.5vmin;
+        width: 45vmin;
         font-size: 1rem;
-        margin: 4vmin 0 5vmin 5vmin;
+        margin: 4vmin 0 5vmin 0vmin;
         font-family: Cabin;
 }
 input[type="submit"]:hover {
@@ -394,8 +395,6 @@ input[type="submit"]:hover {
         animation-name: effect;
         animation-duration: 1000ms;
         animation-fill-mode: forwards;
-        height: 7vmin;
-        width: 40vmin;
         position: relative;
         bottom: 0.2vmin;
         font-family: Cabin;
@@ -403,29 +402,28 @@ input[type="submit"]:hover {
 label {
         font-family: Acme;
         font-size: 1rem;
-        margin-left: 5vmin;
 }
 textarea {
         resize: none;
         overflow: hidden;
         border: none;
         border: 2px solid #041643;
-        width: 91%;
-        height: 25vmin;
+        width: 86%;
+        height: 30vmin;
         margin-left: 5vmin;
         font-size: 1rem;
 }
 textarea:focus {
         outline: none;
 }
-/*checkboc stuff*/
-.container {
+  /*checkboc stuff*/
+  .container {
         display: block;
         position: relative;
         padding-left: 35px;
         margin-bottom: 12px;
         cursor: pointer;
-        font-size: 1rem;
+        font-size: 3vmin;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -478,10 +476,18 @@ textarea:focus {
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
 }
+
 .formshow form label {
-        margin-left: 10%;
         font-size: 1rem;
 }
+
+
+input[type="checkbox"] {
+        margin-left: 4vmin;
+}
+
+
+
 /* CSS ends for the form*/
 .gst {
         color: #061E5B;
@@ -604,14 +610,17 @@ textarea:focus {
          background-color: #041643;
          font-family: Cabin;
          position: fixed;
-         margin-top: 5vmin;
          top: 0;
          color: white;
          width: 100%;
          font-weight: bold;
          text-align: left;
-         margin-bottom: 5vmin;
          padding: 3vmin;
+ }
+
+ form {
+        width: 95%;
+        margin: 15vmin 0 0 4vmin
  }
 
  #wugC {
