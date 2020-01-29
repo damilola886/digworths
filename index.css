@@ -668,7 +668,7 @@ input[type="checkbox"] {
          padding: 1vh;
          color: #222222;
          position: relative;
-         bottom: 12.5vmin;
+         bottom: 13vmin;
          width: 50%;
 
  }
@@ -702,7 +702,7 @@ input[type="checkbox"] {
 
  .crt {
        background-color:  #061E5B;
-       padding: 6vh 0 6vh 0;
+       padding: 1vh 0 6vh 0;
  }
 
  .crt2 {
@@ -711,13 +711,18 @@ input[type="checkbox"] {
   }
  
 
- .con h1 {
-         font-family: Patua One;
-         font-weight: bold;
-         font-size: 1.5rem;
-         color: rgb(255, 255, 255);
-         margin-bottom: 4vh;
-         text-align: center;
+ .con h5 {
+        font-family: Patua One;
+        font-weight: bold;
+        font-size: 1.1rem;
+        text-align: center;
+        background-color:  #061E5B;
+        border-radius: 25px;
+        padding: 1vh;
+        color: white;
+        position: relative;
+        bottom: 14vmin;
+        width: 90%;
  }
 
  .con p {
