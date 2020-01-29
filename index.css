@@ -135,7 +135,7 @@ margin: 0;
  .con3 p {
         font-size: 1rem;
         margin-top: 2vh;
-        color: white;
+        color: #222222;
         line-height: 1.6;
 }
 
@@ -663,10 +663,10 @@ input[type="checkbox"] {
          font-weight: bold;
          font-size: 1.1rem;
          text-align: center;
-         background-color:  #061E5B;
+         background-color:  white;
          border-radius: 25px;
          padding: 1vh;
-         color: white;
+         color: #222222;
          position: relative;
          bottom: 12.5vmin;
          width: 50%;
@@ -706,7 +706,7 @@ input[type="checkbox"] {
  }
 
  .crt2 {
-        background-image: linear-gradient(to right, rgba(6, 30, 91, 1), transparent);
+        background-image: linear-gradient(to top, rgb(6, 30, 91), solid);
         padding: 2vh 0 2vh 0;
   }
  
