@@ -657,22 +657,23 @@ input[type="checkbox"] {
          color: grey;
  }
 
- #wug h1 {
+ #wug h5 {
          font-family: Patua One;
          font-weight: bold;
-         font-size: 1.7rem;
-         background: -webkit-linear-gradient(#FF5C00 50%, #061E5B 50%);
-         -webkit-background-clip: text;
-         background-clip: text;
-         -webkit-text-fill-color: transparent;
+         font-size: 1.1rem;
+         text-align: center;
+         background-color: #f1f1f1;
+         border-radius: 25px;
+         padding: 1vh;
+         width: 50%;
 
  }
 
- .ree {
-         
+ /* .ree {
+        
         position: relative;
         bottom: 13vmin;
- }
+ } */
 
  h1 {
          font-family: Patua One;
