@@ -662,11 +662,12 @@ input[type="checkbox"] {
          font-weight: bold;
          font-size: 1.1rem;
          text-align: center;
-         background-color: #f1f1f1;
+         background-color: #fff;
          border-radius: 25px;
          padding: 1vh;
          color: #222222;
-         margin-bottom: 10%;
+         position: relative;
+         bottom: 11vmin;
          width: 50%;
 
  }
